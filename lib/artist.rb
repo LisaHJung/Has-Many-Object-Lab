@@ -79,7 +79,7 @@ class Artist
   def songs
     Song.all.select {|song| song.artist == self}
   end
-
+ 
 
 # COMMENT FOR SELF.SONG_COUNT METHOD
 #objective
